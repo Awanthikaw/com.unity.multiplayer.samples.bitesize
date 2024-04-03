@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bootstrap.unity
     guid: f6c7625143151463a958778d50660ce7
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 4258491428da86848b9a8e9b0e3153d5
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

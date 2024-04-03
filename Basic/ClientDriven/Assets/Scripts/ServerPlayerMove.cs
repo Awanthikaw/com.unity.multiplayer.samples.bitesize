@@ -56,6 +56,7 @@ public class ServerPlayerMove : NetworkBehaviour
 
         if (objectToPickup.TryGetComponent(out NetworkObject networkObject) && networkObject.TrySetParent(transform))
         {
+            objectToPickup.transform.localScale *= 0.5f;
             m_PickedUpObject = networkObject;
             objectToPickup.transform.localPosition = m_LocalHeldPosition;
             objectToPickup.GetComponent<ServerIngredient>().ingredientDespawned += IngredientDespawned;
